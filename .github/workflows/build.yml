@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Build
         run: |
-            ls
+            ls -la
       - name: Deploy
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
